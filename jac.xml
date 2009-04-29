@@ -7,7 +7,7 @@
   <bindings>
     <select itemPath="rss.channel.item" produces="XML">
       <urls>
-        <url>http://jira.atlassian.com/sr/jira.issueviews:searchrequest-xml/temp/SearchRequest.xml</url>
+        <url>http://jira.atlassian.com/sr/jira.issueviews:searchrequest-xml/temp/SearchRequest.xml?reset=true</url>
       </urls>
       <paging model="page">
         <start default="0" id="pager/start"/>
@@ -25,7 +25,7 @@
         <key id="component" type="xs:string" paramType="query" required="false"/>
         <key id="fixfor" type="xs:string" paramType="query" required="false"/>
         <key id="assignee" type="xs:string" paramType="query" required="false"/>
-        <key id="assigneeSelect" type="xs:string" paramType="query" default="specificUser" required="false"/>
+        <key id="assigneeSelect" type="xs:string" paramType="query" default="specificuser" required="false"/>
         <key id="resolution" type="xs:string" paramType="query" required="false"/>
         <key id="version" type="xs:string" paramType="query" required="false"/>
       </inputs>

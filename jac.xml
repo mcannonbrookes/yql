@@ -17,7 +17,7 @@
       <inputs>
         <key id="sorter/field" default="issuekey" type="xs:string" paramType="query" />
         <key id="sorter/order" default="DESC" type="xs:string" paramType="query" />
-        <key id="pid" type="xs:string" paramType="query" required="true"/>
+        <key id="pid" type="xs:string" paramType="query" required="false"/>
         <key id="assignee" type="xs:string" paramType="query" required="false"/>
         <key id="type" type="xs:string" paramType="query" required="false"/>
         <key id="priority" type="xs:string" paramType="query" required="false"/>

@@ -17,17 +17,17 @@
       <inputs>
         <key id="sorter/field" default="issuekey" type="xs:string" paramType="query" />
         <key id="sorter/order" default="DESC" type="xs:string" paramType="query" />
-        <key id="pid" type="xs:string" paramType="path" required="true"/>
-        <key id="assignee" type="xs:string" paramType="path" required="false"/>
-        <key id="type" type="xs:string" paramType="path" required="false"/>
-        <key id="priority" type="xs:string" paramType="path" required="false"/>
-        <key id="status" type="xs:string" paramType="path" required="false"/>
-        <key id="component" type="xs:string" paramType="path" required="false"/>
-        <key id="fixfor" type="xs:string" paramType="path" required="false"/>
-        <key id="assignee" type="xs:string" paramType="path" required="false"/>
-        <key id="assigneeSelect" type="xs:string" paramType="path" default="specificUser" required="false"/>
-        <key id="resolution" type="xs:string" paramType="path" required="false"/>
-        <key id="version" type="xs:string" paramType="path" required="false"/>
+        <key id="pid" type="xs:string" paramType="query" required="true"/>
+        <key id="assignee" type="xs:string" paramType="query" required="false"/>
+        <key id="type" type="xs:string" paramType="query" required="false"/>
+        <key id="priority" type="xs:string" paramType="query" required="false"/>
+        <key id="status" type="xs:string" paramType="query" required="false"/>
+        <key id="component" type="xs:string" paramType="query" required="false"/>
+        <key id="fixfor" type="xs:string" paramType="query" required="false"/>
+        <key id="assignee" type="xs:string" paramType="query" required="false"/>
+        <key id="assigneeSelect" type="xs:string" paramType="query" default="specificUser" required="false"/>
+        <key id="resolution" type="xs:string" paramType="query" required="false"/>
+        <key id="version" type="xs:string" paramType="query" required="false"/>
       </inputs>
     </select>
   </bindings>
